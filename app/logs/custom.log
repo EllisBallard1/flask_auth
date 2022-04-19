@@ -1,0 +1,6 @@
+[2022-04-19 14:59:31,379] [22] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 14:59:31,383] [22] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 14:59:31,730] [22] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 14:59:31,733] [22] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 14:59:31] "GET / HTTP/1.1" 200 -
+[2022-04-19 14:59:32,299] [22] 172.19.0.1 requested http://localhost/favicon.icoINFO in __init__: My App Logger
+[2022-04-19 14:59:32,329] [22] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 14:59:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
