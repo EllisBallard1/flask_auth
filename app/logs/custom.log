@@ -4,3 +4,30 @@
 [2022-04-19 14:59:31,733] [22] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 14:59:31] "GET / HTTP/1.1" 200 -
 [2022-04-19 14:59:32,299] [22] 172.19.0.1 requested http://localhost/favicon.icoINFO in __init__: My App Logger
 [2022-04-19 14:59:32,329] [22] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 14:59:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-04-19 20:10:37,355] [9] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 20:10:37,365] [9] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 20:10:37,643] [9] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 20:10:37,649] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:10:37] "GET / HTTP/1.1" 200 -
+[2022-04-19 20:10:45,534] [9] 172.19.0.1 requested http://localhost/loginINFO in __init__: My App Logger
+[2022-04-19 20:10:45,592] [9] 172.19.0.1 requested http://localhost/loginINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:10:45] "%s" %s %s
+[2022-04-19 20:10:45,627] [9] 172.19.0.1 requested http://localhost/loginINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:10:45] "%s" %s %s
+[2022-04-19 20:10:45,628] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:10:45] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2022-04-19 20:10:45,687] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:10:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2022-04-19 20:10:45,725] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:10:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2022-04-19 20:11:14,391] [9] 172.19.0.1 requested http://localhost/aboutINFO in __init__: My App Logger
+[2022-04-19 20:11:14,453] [9] 172.19.0.1 requested http://localhost/aboutINFO in __init__: My App Logger
+[2022-04-19 20:11:14,460] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:11:14] "GET /about HTTP/1.1" 200 -
+[2022-04-19 20:11:15,752] [9] 172.19.0.1 requested http://localhost/welcomeINFO in __init__: My App Logger
+[2022-04-19 20:11:15,795] [9] 172.19.0.1 requested http://localhost/welcomeINFO in __init__: My App Logger
+[2022-04-19 20:11:15,802] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:11:15] "GET /welcome HTTP/1.1" 200 -
+[2022-04-19 20:12:01,709] [9] 172.19.0.1 requested http://localhost/aboutINFO in __init__: My App Logger
+[2022-04-19 20:12:01,733] [9] 172.19.0.1 requested http://localhost/aboutINFO in __init__: My App Logger
+[2022-04-19 20:12:01,738] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:12:01] "GET /about HTTP/1.1" 200 -
+[2022-04-19 20:12:02,503] [9] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 20:12:02,529] [9] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-19 20:12:02,536] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:12:02] "GET / HTTP/1.1" 200 -
+[2022-04-19 20:12:09,843] [9] 172.19.0.1 requested http://localhost/loginINFO in __init__: My App Logger
+[2022-04-19 20:12:09,893] [9] 172.19.0.1 requested http://localhost/loginINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:12:09] "%s" %s %s
+[2022-04-19 20:12:09,949] [9] 172.19.0.1 requested http://localhost/loginINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:12:09] "%s" %s %s
+[2022-04-19 20:12:09,955] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:12:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2022-04-19 20:12:10,040] [9] None requested NoneINFO in _internal: 172.19.0.1 - - [19/Apr/2022 20:12:10] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

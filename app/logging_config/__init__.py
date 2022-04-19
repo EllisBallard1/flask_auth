@@ -70,6 +70,13 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
+        'file.handler.request': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/request.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
         'file.handler.custom': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'RequestFormatter',
@@ -87,7 +94,7 @@ LOGGING_CONFIG = {
     },
     'loggers': {
         '': {  # root logger
-            'handlers': ['default','file.handler'],
+            'handlers': ['default','file.handler', 'file.handler.request'],
             'level': 'DEBUG',
             'propagate': True
         },

@@ -1,6 +1,3 @@
-2022-04-19 14:59:31,382 [INFO] app: Before Request
-2022-04-19 14:59:31,729 [INFO] app: After Request
-2022-04-19 14:59:32,298 [INFO] app: Before Request
 2022-04-19 20:10:37,356 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
 2022-04-19 20:10:37,358 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
 2022-04-19 20:10:37,363 [INFO] app: Before Request
