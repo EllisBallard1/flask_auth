@@ -524,3 +524,20 @@
 2022-04-20 18:08:47,698 [INFO] app: After Request
 2022-04-20 18:08:47,700 [INFO] root: URL: http://localhost/page5 , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /page5, IP: 127.0.0.1, Host: localhost
 2022-04-20 18:08:47,701 [INFO] root: URL: http://localhost/page5 , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /page5, IP: 127.0.0.1, Host: localhost
+2022-04-20 18:13:40,539 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,540 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,542 [INFO] app: Before Request
+2022-04-20 18:13:40,543 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,544 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,673 [INFO] app: After Request
+2022-04-20 18:13:40,674 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,675 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,925 [INFO] app: Before Request
+2022-04-20 18:13:40,928 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,929 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,937 [INFO] app: After Request
+2022-04-20 18:13:40,938 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:40,939 [INFO] root: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:41,374 [INFO] app: Before Request
+2022-04-20 18:13:41,376 [INFO] root: URL: http://localhost/favicon.ico , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /favicon.ico, IP: 172.19.0.1, Host: localhost
+2022-04-20 18:13:41,377 [INFO] root: URL: http://localhost/favicon.ico , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /favicon.ico, IP: 172.19.0.1, Host: localhost

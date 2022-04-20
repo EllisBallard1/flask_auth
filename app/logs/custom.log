@@ -212,3 +212,13 @@
 [2022-04-20 18:08:47,572] [39] 127.0.0.1 requested http://localhost/page5INFO in __init__: My App Logger
 [2022-04-20 18:08:47,574] [39] 127.0.0.1 requested http://localhost/page5INFO in __init__: My App Logger
 [2022-04-20 18:08:47,699] [39] 127.0.0.1 requested http://localhost/page5INFO in __init__: My App Logger
+[2022-04-20 18:13:40,539] [35] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-20 18:13:40,542] [35] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-20 18:13:40,674] [35] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-20 18:13:40,677] [35] None requested NoneINFO in _internal: 172.19.0.1 - - [20/Apr/2022 18:13:40] "GET / HTTP/1.1" 200 -
+[2022-04-20 18:13:40,927] [35] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-20 18:13:40,938] [35] 172.19.0.1 requested http://localhost/INFO in __init__: My App Logger
+[2022-04-20 18:13:40,941] [35] None requested NoneINFO in _internal: 172.19.0.1 - - [20/Apr/2022 18:13:40] "GET / HTTP/1.1" 200 -
+[2022-04-20 18:13:41,375] [35] 172.19.0.1 requested http://localhost/favicon.icoINFO in __init__: My App Logger
+[2022-04-20 18:13:41,388] [35] None requested NoneINFO in _internal: 172.19.0.1 - - [20/Apr/2022 18:13:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-04-20 18:50:57,039] [35] None requested NoneINFO in _internal:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading

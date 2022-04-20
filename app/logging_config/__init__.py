@@ -6,8 +6,8 @@ from logging.handlers import RotatingFileHandler
 import flask
 from flask import request, g, current_app
 from app.logging_config.log_formatters import RequestFormatter
-from logging.config import dictConfig
 log_con = flask.Blueprint('log_con', __name__)
+
 
 
 @log_con.before_app_request
@@ -34,10 +34,10 @@ def after_request_logging(response):
 
 @log_con.before_app_first_request
 def configure_logging():
-    logging.config.dictConfig(LOGGING_CONFIG)
-    log = logging.getLogger("myApp")
+    logging.config.fileConfig("logging.cfg")
+    log = logging.getLogger("root")
     log.info("My App Logger")
-    log = logging.getLogger("myerrors")
+    log = logging.getLogger("errors")
     log.info("THis broke")
 
 
