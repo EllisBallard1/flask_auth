@@ -1,4 +1,6 @@
 import logging
+from logging import config
+from pathlib import Path
 import os
 import time
 from logging.handlers import RotatingFileHandler
@@ -9,12 +11,10 @@ from app.logging_config.log_formatters import RequestFormatter
 log_con = flask.Blueprint('log_con', __name__)
 
 
-
 @log_con.before_app_request
 def before_request_logging():
-    current_app.logger.info("Before Request")
-    log = logging.getLogger("myApp")
-    log.info("My App Logger")
+    request_logger = logging.getLogger('requests')
+    request_logger.info("Before Request")
 
 
 @log_con.after_app_request
@@ -25,16 +25,16 @@ def after_request_logging(response):
         return response
     elif request.path.startswith('/bootstrap'):
         return response
-    current_app.logger.info("After Request")
+    request_logger = logging.getLogger('requests')
+    request_logger.info("After Request")
 
-    log = logging.getLogger("myApp")
-    log.info("My App Logger")
     return response
 
 
 @log_con.before_app_first_request
 def configure_logging():
-    logging.config.fileConfig("logging.cfg")
+    log_config_dir = Path(__file__).parent
+    config.fileConfig(log_config_dir / "logging.cfg")
     log = logging.getLogger("root")
     log.info("My App Logger")
     log = logging.getLogger("errors")
