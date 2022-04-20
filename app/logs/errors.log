@@ -1,1 +1,13 @@
-2022-04-20 21:40:25,110 [INFO] errors: THis broke
+2022-04-20 21:58:02,348 [DEBUG] errors: Example error
+2022-04-20 21:58:55,714 [DEBUG] errors: Example debug
+2022-04-20 22:02:19,097 [DEBUG] errors: Example debug
+2022-04-20 22:02:19,098 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:03:58,554 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
