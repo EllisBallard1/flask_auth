@@ -1,4 +1,3 @@
-from pathlib import Path
 import os
 
 import click
@@ -23,11 +22,9 @@ def create_database():
 @with_appcontext
 def create_log_folder():
     # get root directory of project
-    app_dir = Path(__file__).parent.parent
+    root = os.path.dirname(os.path.abspath(__file__))
     # set the name of the apps log folder to logs
-    logdir = app_dir / "logs"
+    logdir = os.path.join(root, '../logs')
     # make a directory if it doesn't exist
-    if not logdir.exists():
-        logdir.mkdir()
-    # set name of the log file
-    log_file = logdir / "info.log"
+    if not os.path.exists(logdir):
+        os.mkdir(logdir)
