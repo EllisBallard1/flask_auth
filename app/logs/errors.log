@@ -11,3 +11,253 @@ Traceback (most recent call last):
   File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
     1/0
 ZeroDivisionError: division by zero
+2022-04-20 22:21:05,449 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:05,648 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:05,892 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:06,064 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:06,227 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:06,393 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:06,536 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:06,728 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:06,874 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:21:07,027 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:54,954 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:55,255 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:55,631 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:55,889 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:56,127 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:56,324 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:56,568 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:56,740 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:56,911 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:23:57,061 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:21,855 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,014 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,219 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,362 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,503 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,680 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,834 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:22,984 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:23,122 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-20 22:24:23,272 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:04,421 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:04,613 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:04,898 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:05,096 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:05,288 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:05,473 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:05,680 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:05,862 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:06,075 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:03:06,278 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:25,906 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:26,056 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:26,255 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:26,424 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:26,597 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:26,750 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:26,898 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:27,058 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:27,197 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
+2022-04-21 01:08:27,339 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 54, in configure_logging
+    1/0
+ZeroDivisionError: division by zero
