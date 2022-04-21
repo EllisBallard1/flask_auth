@@ -1,34 +1,19 @@
 import logging
-from logging import config
-from pathlib import Path
-
-import flask
-from flask import request, has_request_context
-from app.logging_config.log_formatters import RequestFormatter
 from logging.config import dictConfig
 
+import flask
+from flask import request, current_app
+
+from app.logging_config.log_formatters import RequestFormatter
+
 log_con = flask.Blueprint('log_con', __name__)
-
-request_logger = logging.getLogger("requests")
-errors_logger = logging.getLogger("errors")
-
-
-def log_current_req():
-    if has_request_context():
-        request_logger.info(
-            f'URL: {request.url} , Remote Address: {request.remote_addr} , '
-            f'Request Method: {request.method}, Request Path: {request.path}, '
-            f'IP: {request.headers.get("X-Forwarded-For", request.remote_addr)}, '
-            f'Host: {request.host.split(":", 1)[0]}'
-        )
-    else:
-        raise RuntimeError("No current request being processed")
 
 
 @log_con.before_app_request
 def before_request_logging():
-    request_logger.info("Before Request")
-    log_current_req()
+    current_app.logger.info("Before Request")
+    log = logging.getLogger("myApp")
+    log.info("My App Logger")
 
 
 @log_con.after_app_request
@@ -39,19 +24,118 @@ def after_request_logging(response):
         return response
     elif request.path.startswith('/bootstrap'):
         return response
-    request_logger.info("After Request")
+    current_app.logger.info("After Request")
 
+    log = logging.getLogger("myApp")
+    log.info("My App Logger")
     return response
 
 
 @log_con.before_app_first_request
 def configure_logging():
-    log_config_dir = Path(__file__).parent
-    config.fileConfig(log_config_dir / "logging.cfg")
+    logging.config.dictConfig(LOGGING_CONFIG)
+    log = logging.getLogger("myApp")
+    log.info("My App Logger")
+    log = logging.getLogger("myerrors")
+    log.info("THis broke")
 
-    # log = logging.getLogger("root")
-    # log.info("My App Logger")
-    try:
-        1 / 0
-    except ZeroDivisionError:
-        errors_logger.exception("Hello this is an error")
+
+
+
+LOGGING_CONFIG = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+        },
+        'RequestFormatter': {
+            '()': 'app.logging_config.log_formatters.RequestFormatter',
+            'format': '[%(asctime)s] [%(process)d] %(remote_addr)s requested %(url)s'
+                        '%(levelname)s in %(module)s: %(message)s'
+        }
+    },
+    'handlers': {
+        'default': {
+            'level': 'DEBUG',
+            'formatter': 'standard',
+            'class': 'logging.StreamHandler',
+            'stream': 'ext://sys.stdout',  # Default is stderr
+        },
+        'file.handler': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/flask.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.myapp': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/myapp.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.request': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'RequestFormatter',
+            'filename': 'app/logs/request.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.errors': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/errors.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.sqlalchemy': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/sqlalchemy.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.werkzeug': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/werkzeug.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+    },
+    'loggers': {
+        '': {  # root logger
+            'handlers': ['default','file.handler'],
+            'level': 'DEBUG',
+            'propagate': True
+        },
+        '__main__': {  # if __name__ == '__main__'
+            'handlers': ['default','file.handler'],
+            'level': 'DEBUG',
+            'propagate': True
+        },
+        'werkzeug': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.werkzeug'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'sqlalchemy.engine': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.sqlalchemy'],
+            'level': 'INFO',
+            'propagate': False
+        },
+        'myApp': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.myapp'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'myerrors': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.errors'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+
+    }
+}
