@@ -311,3 +311,8 @@ Traceback (most recent call last):
   File "/home/myuser/app/logging_config/__init__.py", line 52, in configure_logging
     1/0
 ZeroDivisionError: division by zero
+2022-04-21 01:25:09,779 [ERROR] errors: Hello this is an error
+Traceback (most recent call last):
+  File "/home/myuser/app/logging_config/__init__.py", line 51, in configure_logging
+    1/0
+ZeroDivisionError: division by zero

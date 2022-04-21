@@ -4,8 +4,7 @@ from pathlib import Path
 
 
 import flask
-from flask import request, g, current_app, has_request_context
-from app.logging_config.log_formatters import RequestFormatter
+from flask import request, has_request_context
 log_con = flask.Blueprint('log_con', __name__)
 
 request_logger = logging.getLogger("requests")
