@@ -235,3 +235,123 @@
 [2022-04-21 01:25:12,592] [61] 172.19.0.1 requested http://localhost/about''INFO in __init__: Before Request
 [2022-04-21 01:25:12,594] [61] 172.19.0.1 requested http://localhost/about''INFO in __init__: URL: http://localhost/about , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /about, IP: 172.19.0.1, Host: localhost
 [2022-04-21 01:25:12,618] [61] 172.19.0.1 requested http://localhost/about''INFO in __init__: After Request
+[2022-04-21 01:41:15,142] [8] 172.19.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 01:41:15,143] [8] 172.19.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+[2022-04-21 01:41:15,410] [8] 172.19.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:09,925] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:09,925] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,043] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:10,069] [20] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: Before Request
+[2022-04-21 14:09:10,069] [20] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: URL: http://localhost/dashboard , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /dashboard, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,070] [20] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: After Request
+[2022-04-21 14:09:10,071] [20] 127.0.0.1 requested http://localhost/register''INFO in __init__: Before Request
+[2022-04-21 14:09:10,072] [20] 127.0.0.1 requested http://localhost/register''INFO in __init__: URL: http://localhost/register , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /register, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,186] [20] 127.0.0.1 requested http://localhost/register''INFO in __init__: After Request
+[2022-04-21 14:09:10,188] [20] 127.0.0.1 requested http://localhost/login''INFO in __init__: Before Request
+[2022-04-21 14:09:10,189] [20] 127.0.0.1 requested http://localhost/login''INFO in __init__: URL: http://localhost/login , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /login, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,203] [20] 127.0.0.1 requested http://localhost/login''INFO in __init__: After Request
+[2022-04-21 14:09:10,254] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:10,254] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,369] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:10,397] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:10,397] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,513] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:10,538] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:10,539] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,658] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:10,688] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:10,689] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,808] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:10,834] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:10,834] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:10,951] [20] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:09:10,975] [20] 127.0.0.1 requested http://localhost/about''INFO in __init__: Before Request
+[2022-04-21 14:09:10,975] [20] 127.0.0.1 requested http://localhost/about''INFO in __init__: URL: http://localhost/about , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /about, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:11,089] [20] 127.0.0.1 requested http://localhost/about''INFO in __init__: After Request
+[2022-04-21 14:09:11,114] [20] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: Before Request
+[2022-04-21 14:09:11,114] [20] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: URL: http://localhost/welcome , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /welcome, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:11,229] [20] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: After Request
+[2022-04-21 14:09:11,254] [20] 127.0.0.1 requested http://localhost/page5''INFO in __init__: Before Request
+[2022-04-21 14:09:11,255] [20] 127.0.0.1 requested http://localhost/page5''INFO in __init__: URL: http://localhost/page5 , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /page5, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:09:11,368] [20] 127.0.0.1 requested http://localhost/page5''INFO in __init__: After Request
+[2022-04-21 14:09:18,908] [8] 172.19.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:09:18,909] [8] 172.19.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+[2022-04-21 14:09:19,074] [8] 172.19.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:23,274] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:22:23,275] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,396] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:23,419] [34] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: Before Request
+[2022-04-21 14:22:23,420] [34] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: URL: http://localhost/dashboard , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /dashboard, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,421] [34] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: After Request
+[2022-04-21 14:22:23,422] [34] 127.0.0.1 requested http://localhost/register''INFO in __init__: Before Request
+[2022-04-21 14:22:23,423] [34] 127.0.0.1 requested http://localhost/register''INFO in __init__: URL: http://localhost/register , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /register, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,538] [34] 127.0.0.1 requested http://localhost/register''INFO in __init__: After Request
+[2022-04-21 14:22:23,540] [34] 127.0.0.1 requested http://localhost/login''INFO in __init__: Before Request
+[2022-04-21 14:22:23,541] [34] 127.0.0.1 requested http://localhost/login''INFO in __init__: URL: http://localhost/login , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /login, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,553] [34] 127.0.0.1 requested http://localhost/login''INFO in __init__: After Request
+[2022-04-21 14:22:23,601] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:22:23,602] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,715] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:23,739] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:22:23,739] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,852] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:23,877] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:22:23,877] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:23,991] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:24,021] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:22:24,022] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:24,136] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:24,161] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:22:24,162] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:24,276] [34] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:22:24,300] [34] 127.0.0.1 requested http://localhost/about''INFO in __init__: Before Request
+[2022-04-21 14:22:24,301] [34] 127.0.0.1 requested http://localhost/about''INFO in __init__: URL: http://localhost/about , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /about, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:24,411] [34] 127.0.0.1 requested http://localhost/about''INFO in __init__: After Request
+[2022-04-21 14:22:24,434] [34] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: Before Request
+[2022-04-21 14:22:24,435] [34] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: URL: http://localhost/welcome , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /welcome, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:24,549] [34] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: After Request
+[2022-04-21 14:22:24,572] [34] 127.0.0.1 requested http://localhost/page5''INFO in __init__: Before Request
+[2022-04-21 14:22:24,572] [34] 127.0.0.1 requested http://localhost/page5''INFO in __init__: URL: http://localhost/page5 , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /page5, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:22:24,689] [34] 127.0.0.1 requested http://localhost/page5''INFO in __init__: After Request
+[2022-04-21 14:23:36,965] [28] 172.19.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:23:36,967] [28] 172.19.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+[2022-04-21 14:23:37,097] [28] 172.19.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:44,375] [38] 172.19.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:44,376] [38] 172.19.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 172.19.0.1 , Request Method: GET, Request Path: /, IP: 172.19.0.1, Host: localhost
+[2022-04-21 14:28:44,500] [38] 172.19.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:58,470] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:58,471] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:58,593] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:58,619] [44] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: Before Request
+[2022-04-21 14:28:58,620] [44] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: URL: http://localhost/dashboard , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /dashboard, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:58,620] [44] 127.0.0.1 requested http://localhost/dashboard''INFO in __init__: After Request
+[2022-04-21 14:28:58,623] [44] 127.0.0.1 requested http://localhost/register''INFO in __init__: Before Request
+[2022-04-21 14:28:58,623] [44] 127.0.0.1 requested http://localhost/register''INFO in __init__: URL: http://localhost/register , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /register, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:58,738] [44] 127.0.0.1 requested http://localhost/register''INFO in __init__: After Request
+[2022-04-21 14:28:58,740] [44] 127.0.0.1 requested http://localhost/login''INFO in __init__: Before Request
+[2022-04-21 14:28:58,741] [44] 127.0.0.1 requested http://localhost/login''INFO in __init__: URL: http://localhost/login , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /login, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:58,753] [44] 127.0.0.1 requested http://localhost/login''INFO in __init__: After Request
+[2022-04-21 14:28:58,803] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:58,803] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:58,918] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:58,943] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:58,944] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,057] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:59,084] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:59,084] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,199] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:59,229] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:59,229] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,341] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:59,364] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: Before Request
+[2022-04-21 14:28:59,365] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: URL: http://localhost/ , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,477] [44] 127.0.0.1 requested http://localhost/''INFO in __init__: After Request
+[2022-04-21 14:28:59,504] [44] 127.0.0.1 requested http://localhost/about''INFO in __init__: Before Request
+[2022-04-21 14:28:59,504] [44] 127.0.0.1 requested http://localhost/about''INFO in __init__: URL: http://localhost/about , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /about, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,617] [44] 127.0.0.1 requested http://localhost/about''INFO in __init__: After Request
+[2022-04-21 14:28:59,645] [44] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: Before Request
+[2022-04-21 14:28:59,645] [44] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: URL: http://localhost/welcome , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /welcome, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,757] [44] 127.0.0.1 requested http://localhost/welcome''INFO in __init__: After Request
+[2022-04-21 14:28:59,784] [44] 127.0.0.1 requested http://localhost/page5''INFO in __init__: Before Request
+[2022-04-21 14:28:59,785] [44] 127.0.0.1 requested http://localhost/page5''INFO in __init__: URL: http://localhost/page5 , Remote Address: 127.0.0.1 , Request Method: GET, Request Path: /page5, IP: 127.0.0.1, Host: localhost
+[2022-04-21 14:28:59,901] [44] 127.0.0.1 requested http://localhost/page5''INFO in __init__: After Request
