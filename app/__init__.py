@@ -1,7 +1,4 @@
 """A simple flask web app"""
-import logging
-import os
-from logging.handlers import RotatingFileHandler
 
 import flask_login
 from flask import Flask

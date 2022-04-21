@@ -6,6 +6,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from app.db import db
 from flask_login import UserMixin
 
+
 class Song(db.Model):
     __tablename__ = 'songs'
     id = db.Column(db.Integer, primary_key=True)
@@ -13,7 +14,8 @@ class Song(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     user = relationship("User", back_populates="songs")
 
-
+    def __init__(self, title):
+        self.title = title
 
 class User(UserMixin, db.Model):
     __tablename__ = 'users'
