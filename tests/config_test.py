@@ -10,11 +10,9 @@ def test_development_config(application):
 
     assert application.config['DEBUG']
     assert not application.config['TESTING']
-<<<<<<< HEAD
+
     assert application.config['SQLALCHEMY_DATABASE_URI'] == 'sqlite:////home/myuser/database/db.sqlite'
 
-=======
->>>>>>> a61b19e3141842f7d6f4660442d6ed40cd4e007d
 
 def test_testing_config(application):
     application.config.from_object('app.config.TestingConfig')
@@ -27,7 +25,6 @@ def test_production_config(application):
     application.config.from_object('app.config.ProductionConfig')
     assert not application.config['DEBUG']
     assert not application.config['TESTING']
-<<<<<<< HEAD
+
     assert application.config['SQLALCHEMY_DATABASE_URI'] == 'sqlite:////home/myuser/database/db.sqlite'
-=======
->>>>>>> a61b19e3141842f7d6f4660442d6ed40cd4e007d
+
