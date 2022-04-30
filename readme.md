@@ -1,13 +1,19 @@
 # Project Setup
 
 [![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+* https://github.com/EllisBallard1/flask_auth/actions/runs/2230437874
+
 
 * [Production Deployment](https://kwilliam-prod.herokuapp.com/)
+* https://eab4-prod-proj3.herokuapp.com/
 
 
 [![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+https://github.com/EllisBallard1/flask_auth/actions/runs/2230431248
+
 
 * [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* https://eab4-dev-proj3.herokuapp.com/
 
 ## Setting up CI/CD
 
