@@ -38,11 +38,13 @@ def songs_browse(page):
 def songs_upload():
     form = csv_upload()
     if form.validate_on_submit():
-        log = logging.getLogger("myApp")
-
+        #create the log with the information for CSV upload
+        log = logging.getLogger("uploads")
+        user = current_user.email
         filename = secure_filename(form.file.data.filename)
         filepath = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
         form.file.data.save(filepath)
+        log.info('USER: ' + user + ', FILENAME: ' + filename + ', FILEPATH: ' + filepath)
         #user = current_user
         list_of_songs = []
         with open(filepath) as file:
